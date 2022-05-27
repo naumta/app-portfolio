@@ -1,6 +1,8 @@
 <div >
   <p>about us</p>
-  <img [src]="randomImageUrl">
+  <button (click)="getImage()">get image</button>
+<br/>
+  <img [src]="randomImageUrl" class="img">
 </div>
 
-<button (click)="getImage()">get image</button>
+

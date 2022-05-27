@@ -14,7 +14,7 @@ export class AboutUsComponent implements OnInit {
 
   ngOnInit(): void {
     this.dogService.getRandomImage().subscribe((data: any) => {
-      console.log(data);
+      //console.log(data);
       this.randomImageUrl = data.message;
     })
   }
